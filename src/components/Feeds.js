@@ -2,6 +2,7 @@
 import MiniProfile from './FeedComponents/MiniProfile';
 import Posts from './FeedComponents/Posts';
 import Stories from './FeedComponents/Stories'
+import Suggestion from './FeedComponents/Suggestion';
 export default function Feeds() {
     return (
         <main className='grid grid-cols-1 md:grid-cols-3 md:max-w-6xl mx-auto'>
@@ -12,8 +13,9 @@ export default function Feeds() {
             <section className='hidden md:inline-grid md: col-span-1'>
               <div className='fixed w-[380px]'>
                 <MiniProfile/>
+                <Suggestion/>
               </div>
-                {/* suggestion */}
+               
             </section>
 
         </main>
