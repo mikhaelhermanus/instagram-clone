@@ -4,7 +4,7 @@ import Posts from './FeedComponents/Posts';
 import Stories from './FeedComponents/Stories'
 export default function Feeds() {
     return (
-        <main className='grid grid-cols-1 md: grid-cols-3 md:max-w-6xl mx-auto'>
+        <main className='grid grid-cols-1 md:grid-cols-3 md:max-w-6xl mx-auto'>
             <section className='md: col-span-2'>
                 <Stories />
                 <Posts />
