@@ -30,7 +30,7 @@ export default function Header() {
                 </div>
                 {/* right */}
                 <div className='flex space-x-4 items-center'>
-                    <HomeIcon className='hidden md:inline-flex h-6 cursor-pointer hover: scale-125 transition-transform duration-200 ease-out ' />
+                    <HomeIcon className='hidden md:inline-flex h-6 cursor-pointer hover:scale-125 transition-transform duration-200 ease-out ' />
                     <PlusCircleIcon className='h-6 cursor-pointer hover: scale-125 transition-transform duration-200 ease-out ' />
                     <img src='https://campuspedia.id/diskusi/img/profile.png' alt='user-image' className='h-10 rounded-full cursor-pointer hover: scale-125' />
                 </div>
